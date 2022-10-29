@@ -18,6 +18,8 @@ stores = [
 @app.route('/')
 def home():
     return render_template("index.html")
+
+
 # POST - used to receive date
 # GET - used to send date back only
 
